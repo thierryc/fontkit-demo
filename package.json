@@ -5,6 +5,7 @@
   "author": "Devon Govett <devongovett@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@pdf-lib/fontkit": "^1.1.1",
     "autobind-decorator": "^1.4.0",
     "blob-to-buffer": "^1.2.6",
     "fontkit": "^1.8.0",
@@ -15,10 +16,17 @@
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/plugin-proposal-class-properties": "^7.3.4",
-    "@babel/plugin-proposal-decorators": "^7.3.0",
-    "parcel": "^1.12.0"
+    "@babel/plugin-proposal-decorators": "^7.24.1",
+    "buffer": "^6.0.3",
+    "events": "^3.3.0",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10",
+    "querystring-es3": "^0.2.1",
+    "stream-browserify": "^3.0.0",
+    "string_decoder": "^1.3.0",
+    "util": "^0.12.5"
   },
-  "browserslist": "> 1%, not ie 11, not op_mini all",
+  "browserslist": "> 0.25%, not dead",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html"

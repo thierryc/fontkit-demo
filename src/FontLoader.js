@@ -1,6 +1,6 @@
 import autobind from 'autobind-decorator';
 import {Component, cloneElement, h} from 'preact';
-import fontkit from 'fontkit';
+import fontkit from '@pdf-lib/fontkit';
 import blobToBuffer from 'blob-to-buffer';
 
 @autobind
